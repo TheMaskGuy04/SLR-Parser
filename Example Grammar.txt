@@ -1,13 +1,15 @@
+1.
 B -> S
 S -> d = E
 E -> E + E | E - E | E * E | E / E | E ^ E | ( E ) | d | i | f
 
+2.
 S -> E
 E -> E + T | T
 T -> T * F | F
 F -> ( E ) | i
 
-
+3.
 A -> S
 S -> C C
 C -> a C | b
